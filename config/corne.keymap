@@ -236,8 +236,8 @@
             >;
         };
 
-        NAV {
-            display-name = "NavNum";
+        Num {
+            display-name = "Num";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -253,8 +253,8 @@
             >;
         };
 
-        SYM {
-            display-name = "Symbols";
+        Nav {
+            display-name = "Nav";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -263,10 +263,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp CARET  &kp AMPS  &kp ASTRK     &kp LEFT_PARENTHESIS  &kp RPAR  &trans
-&trans  &trans    &trans          &kp UP_ARROW    &trans           &kp GRAVE    &kp LEFT   &kp DOWN  &kp UP_ARROW  &kp RIGHT             &kp BSLH  &trans
-&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &kp UNDER  &kp PLUS  &kp LBRC      &kp RBRC              &kp PIPE  &trans
-                                  &kp LGUI        &trans           &kp SPACE    &kp RET    &trans    &trans
+&trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP_ARROW))  &kp LA(LC(RIGHT))  &kp RPAR   &trans
+&trans  &trans    &trans          &kp UP_ARROW    &trans           &kp GRAVE    &kp LEFT_ARROW    &kp DOWN          &kp UP_ARROW          &kp RIGHT          &kp RIGHT  &trans
+&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &msc SCRL_LEFT    &msc SCRL_DOWN    &msc SCRL_UP          &msc SCRL_RIGHT    &mkp MB1   &mkp MB2
+                                  &kp LGUI        &trans           &kp SPACE    &kp RET           &trans            &trans
             >;
         };
 
