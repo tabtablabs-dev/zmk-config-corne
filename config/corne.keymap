@@ -263,10 +263,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp AT          &kp HASH        &kp DLLR         &kp PRCNT    &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP_ARROW))  &kp LA(LC(RIGHT))  &kp RPAR   &trans
-&trans  &trans    &trans          &kp UP_ARROW    &trans           &kp GRAVE    &kp LEFT_ARROW    &kp DOWN          &kp UP_ARROW          &kp RIGHT          &kp RIGHT  &trans
-&trans  &trans    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp TILDE    &msc SCRL_LEFT    &msc SCRL_DOWN    &msc SCRL_UP          &msc SCRL_RIGHT    &mkp MB1   &mkp MB2
-                                  &kp LGUI        &trans           &kp SPACE    &kp RET           &trans            &trans
+&trans  &trans  &trans          &trans          &trans           &trans       &kp LC(LA(LEFT))  &kp LC(LA(DOWN))  &kp LC(LA(UP_ARROW))  &kp LA(LC(RIGHT))  &trans     &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans       &kp LEFT_ARROW    &kp DOWN          &kp UP_ARROW          &kp RIGHT          &kp RIGHT  &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &msc SCRL_LEFT    &msc SCRL_DOWN    &msc SCRL_UP          &msc SCRL_RIGHT    &mkp MB1   &mkp MB2
+                                &trans          &trans           &kp SPACE    &kp RET           &trans            &trans
             >;
         };
 
