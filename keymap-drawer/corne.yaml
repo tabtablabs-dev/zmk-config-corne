@@ -109,7 +109,7 @@ layers:
   - DOWN
   - UP ARROW
   - RIGHT
-  - RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
